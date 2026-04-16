@@ -1,5 +1,5 @@
 {
-  "name": "@ucloud/openclaw-modelverse-plugin",
+  "name": "@taigong12/openclaw-modelverse-plugin",
   "version": "1.0.0",
   "description": "OpenClaw plugin for Modelverse (UCloud) AI model gateway provider",
   "license": "MIT",
@@ -33,7 +33,7 @@
       "./index.ts"
     ],
     "install": {
-      "npmSpec": "@ucloud/openclaw-modelverse-plugin",
+      "npmSpec": "@taigong12/openclaw-modelverse-plugin",
       "defaultChoice": "npm",
       "minHostVersion": ">=2026.3.22"
     }

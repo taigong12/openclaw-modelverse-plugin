@@ -12,7 +12,7 @@
 **From npm:**
 
 ```bash
-openclaw plugins install @ucloud/openclaw-modelverse-plugin
+openclaw plugins install @taigong12/openclaw-modelverse-plugin
 ```
 
 **From source:**

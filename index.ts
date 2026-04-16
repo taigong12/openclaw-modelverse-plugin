@@ -17,7 +17,7 @@ export default defineSingleProviderPluginEntry({
       {
         methodId: "api-key",
         label: "Modelverse API key",
-        hint: "Obtain your API key at console.ucloud-global.com/modelverse",
+        hint: "Obtain your API key at astraflow.ucloud.cn/modelverse/api-keys",
         optionKey: "modelverseApiKey",
         flagName: "--modelverse-api-key",
         envVar: "MODELVERSE_API_KEY",

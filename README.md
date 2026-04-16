@@ -5,7 +5,7 @@
 ## Requirements
 
 - OpenClaw 2026.x or later
-- A Modelverse API key — obtain one at [console.ucloud-global.com/modelverse](https://console.ucloud-global.com/modelverse/experience/api-keys)
+- A Modelverse API key — obtain one at [astraflow.ucloud.cn/modelverse/api-keys](https://astraflow.ucloud.cn/modelverse/api-keys)
 
 ## Installation
 
@@ -67,7 +67,7 @@ modelverse/gpt-5.4
 ## Links
 
 - [Modelverse Platform](https://astraflow.ucloud.cn/modelverse)
-- [API Key Console](https://console.ucloud-global.com/modelverse/experience/api-keys)
+- [API Key Console](https://astraflow.ucloud.cn/modelverse/api-keys)
 - [OpenClaw Documentation](https://docs.openclaw.ai)
 - [ClawhHub Plugin Page](https://clawhub.openclaw.ai/plugins/@ucloud/openclaw-modelverse-plugin)
 

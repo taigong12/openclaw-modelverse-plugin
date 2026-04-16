@@ -1,0 +1,32 @@
+{
+  "id": "openclaw-modelverse-plugin",
+  "enabledByDefault": true,
+  "providers": ["modelverse"],
+  "providerAuthEnvVars": {
+    "modelverse": ["MODELVERSE_API_KEY"]
+  },
+  "providerAuthChoices": [
+    {
+      "provider": "modelverse",
+      "method": "api-key",
+      "choiceId": "modelverse-api-key",
+      "choiceLabel": "Modelverse API key",
+      "choiceHint": "UCloud Modelverse AI platform API key",
+      "groupId": "modelverse",
+      "groupLabel": "Modelverse",
+      "groupHint": "UCloud Modelverse",
+      "optionKey": "modelverseApiKey",
+      "cliFlag": "--modelverse-api-key",
+      "cliOption": "--modelverse-api-key <key>",
+      "cliDescription": "Modelverse API key",
+      "assistantPriority": 200,
+      "assistantVisibility": "visible",
+      "onboardingScopes": ["text-inference"]
+    }
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

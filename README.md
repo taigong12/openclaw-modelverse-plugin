@@ -41,14 +41,6 @@ openclaw onboard
 openclaw models auth login --provider modelverse
 ```
 
-## Default Model
-
-The plugin sets `modelverse/claude-opus-4-6` as the default model on first onboard. To change it:
-
-```bash
-openclaw models set modelverse/gpt-5.3-codex
-```
-
 ## Supported Models
 
 | Family | Example Models |

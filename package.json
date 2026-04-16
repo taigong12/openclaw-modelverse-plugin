@@ -1,0 +1,41 @@
+{
+  "name": "@ucloud/openclaw-modelverse-plugin",
+  "version": "1.0.0",
+  "description": "OpenClaw plugin for Modelverse (UCloud) AI model gateway provider",
+  "license": "MIT",
+  "author": "UCloud",
+  "type": "module",
+  "files": [
+    "index.ts",
+    "onboard.ts",
+    "provider-catalog.ts",
+    "models.ts",
+    "api.ts",
+    "openclaw.plugin.json",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "install": {
+      "npmSpec": "@ucloud/openclaw-modelverse-plugin",
+      "defaultChoice": "npm",
+      "minHostVersion": ">=2026.3.22"
+    }
+  }
+}

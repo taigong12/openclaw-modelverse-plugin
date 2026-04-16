@@ -1,4 +1,4 @@
-# @ucloud/openclaw-modelverse-plugin
+# @taigong12/openclaw-modelverse-plugin
 
 [OpenClaw](https://github.com/openclaw/openclaw) plugin for [Modelverse](https://astraflow.ucloud.cn/modelverse) — UCloud's AI model gateway with 140+ models (GPT, Claude, DeepSeek, Qwen, Grok, Kimi, MiniMax, GLM, ERNIE, and more) via a unified OpenAI-compatible API.
 
@@ -69,7 +69,7 @@ modelverse/gpt-5.4
 - [Modelverse Platform](https://astraflow.ucloud.cn/modelverse)
 - [API Key Console](https://astraflow.ucloud.cn/modelverse/api-keys)
 - [OpenClaw Documentation](https://docs.openclaw.ai)
-- [ClawhHub Plugin Page](https://clawhub.openclaw.ai/plugins/@ucloud/openclaw-modelverse-plugin)
+- [ClawhHub Plugin Page](https://clawhub.openclaw.ai/plugins/@taigong12/openclaw-modelverse-plugin)
 
 ## License
 

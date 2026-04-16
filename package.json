@@ -1,6 +1,6 @@
 {
   "name": "@taigong12/openclaw-modelverse-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "OpenClaw plugin for Modelverse (UCloud) AI model gateway provider",
   "license": "MIT",
   "author": "UCloud",

@@ -18,7 +18,7 @@ openclaw plugins install @ucloud/openclaw-modelverse-plugin
 **From source:**
 
 ```bash
-openclaw plugins install github:taigong12/openclaw-modelverse-plugin
+git clone https://github.com/taigong12/openclaw-modelverse-plugin.git ~/.openclaw/extensions/openclaw-modelverse-plugin
 ```
 
 ## Setup

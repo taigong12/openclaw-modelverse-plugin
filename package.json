@@ -11,6 +11,7 @@
     "provider-catalog.ts",
     "models.ts",
     "api.ts",
+    "setup-auth.ts",
     "openclaw.plugin.json",
     "README.md"
   ],
